@@ -342,3 +342,35 @@ hr {
     color: #475569;
 }
 
+.footer-section {
+    background-color: #0b1329; 
+    padding: 30px 0;
+    border-top: 1px solid #1e293b;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left {
+    display: inline-block;
+    width: 49%;
+    font-size: 14px;
+    color: #64748b; 
+    text-align: left;
+}
+
+.footer-right {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+
+.footer-right a {
+    font-size: 14px;
+    color: #64748b;
+    text-decoration: none; 
+    margin-left: 20px; 
+}
