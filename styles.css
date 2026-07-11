@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0; 
+  font-family: 'Inter', sans-serif;
 }
 .navbar {
   display: flex;
@@ -122,7 +123,6 @@ cursor: pointer;
 .speaker-card img {
     width: 100%;
     height: 220px;
-    object-fit: cover;
 }
 
 .speaker-info {
@@ -147,3 +147,198 @@ cursor: pointer;
     font-size: 10px;
     color: #666666;
 }
+.pricing-section {
+    padding: 60px 0;
+    background-color: #f8fafc;
+    text-align: center;
+}
+
+.pricing-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0f172a;
+    margin-bottom: 8px;
+}
+
+.pricing-subtitle {
+    font-size: 16px;
+    color: #64748b;
+    margin-bottom: 40px;
+}
+
+.pricing-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.price-card {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 20%;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    margin: 0 5px;
+    padding: 25px 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.price-card.card-pro {
+    background-color: #0b1329; 
+    border-color: #0b1329;
+}
+
+.card-type {
+    font-size: 12px;
+    font-weight: bold;
+    color: #64748b;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card-type.type-pro {
+    color: #3b82f6; 
+}
+
+.price-amount {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0f172a;
+}
+
+.price-amount.amount-pro {
+    color: #ffffff;
+}
+
+.per-person {
+    font-size: 13px;
+    color: #64748b;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.text-gray {
+    color: #94a3b8;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e2e8f0;
+    margin-bottom: 15px;
+}
+
+.price-card.card-pro hr {
+    border-top: 1px solid #1e293b;
+}
+
+.price-card ul {
+    list-style-type: none; 
+    margin-bottom: 20px;
+}
+
+.price-card li {
+    font-size: 10px;
+    color: #334155;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 15px;
+}
+
+
+.price-card ul.list-pro li {
+    color: #cbd5e1;
+}
+
+
+.price-btn {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-white {
+    background-color: #ffffff;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+}
+
+.btn-blue {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+}
+.schedule-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.schedule-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0f172a;
+    margin-bottom: 8px;
+}
+
+.schedule-subtitle {
+    font-size: 16px;
+    color: #64748b;
+    margin-bottom: 40px;
+}
+
+.schedule-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.schedule-item {
+    background-color: #f8fafc;
+    border-left: 4px solid #2563eb; 
+    border-top: 1px solid #e2e8f0;
+    border-right: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+    border-radius: 0 6px 6px 0;
+    margin-bottom: 15px;
+    padding: 20px;
+    text-align: left;
+}
+
+.schedule-item.break-item {
+    background-color: #f1f5f9;
+    border-left-color: #94a3b8; 
+}
+
+.schedule-time {
+    display: inline-block;
+    width: 25%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.schedule-item.break-item .schedule-time {
+    color: #475569;
+}
+
+.schedule-info {
+    display: inline-block;
+    width: 70%;
+}
+
+.schedule-info h3 {
+    font-size: 18px;
+    color: #0f172a;
+    margin-bottom: 5px;
+}
+
+.schedule-info p {
+    font-size: 14px;
+    color: #475569;
+}
+
